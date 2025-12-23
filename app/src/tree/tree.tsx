@@ -17,12 +17,7 @@ const router = createBrowserRouter([
         path: "*",
         loader: protectedLoader,
         element: <div>Error 404 </div>,
-    },
-    {
-        path: "home",
-        Component: MainPage,
-        loader: protectedLoader
-    },
+    }
 ]);
 
 
